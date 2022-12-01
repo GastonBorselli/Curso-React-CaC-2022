@@ -1,0 +1,105 @@
+:root{ /*variable global de estetica*/
+    --background-color: rgb(59,120,234);
+    --padding: 20px 10px;
+    --font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: royalblue;
+}
+
+header{
+    background-color: var(--background-color);
+    padding: var(--padding);
+    height: 40px;
+    color: azure;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgb(28, 71, 163);
+    color: azure;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    
+}
+
+main{
+    background-color: rgb(66,148,155);
+    color: azure;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 300px 400px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: var(--background-color);
+    color: azure;
+    padding: var(--padding);
+    height: 40px;
+    font-family: var(--font-family);
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div-nav{
+  background-color: rgb(77, 208, 225);  
+  color: azure;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 300px 60px;
+  margin-right: 10px;
+}
+
+.div-nav-aside{
+    background-color: rgb(66,148,155);
+    
+}
+
+#div{
+    background-color: rgb(66,148,155);
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+#aside{
+    background-color: rgb(176, 190, 197);
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+#section{
+    background-color: rgb(224, 224, 224 );
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-family); 
+}
+#article{
+    background-color: rgb(117, 117, 117);
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-family); 
+}
+.tercer-col{
+    margin-top: 10px;
+    padding: 300px 60px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
